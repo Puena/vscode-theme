@@ -1,0 +1,21 @@
+{
+  "name": "my-theme",
+  "displayName": "My Theme",
+  "description": "Nope",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "my-theme",
+        "uiTheme": "vs",
+        "path": "./themes/my-theme-color-theme.json"
+      }
+    ]
+  }
+}
