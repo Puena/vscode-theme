@@ -3,12 +3,23 @@
 	"colors": {
 		"editor.background": "#f3f3f3",
 		"editor.foreground": "#000000",
-		// "editor.selectionBackground": "#8204da",
-		// "editor.selectionHighlightBorder": "#8204da",
         "list.activeSelectionIconForeground": "#f3f3f3",
-		// "list.activeSelectionBackground": "#8204da",
 		"statusBar.background": "#8204da",
 		"statusBarItem.remoteBackground": "#8204da",
+		"activityBar.background": "#f3f3f3",
+		"activityBar.foreground": "#000000",
+		"titleBar.activeBackground": "#f3f3f3",
+		"list.activeSelectionBackground": "#8104da8f",
+		"list.activeSelectionForeground": "#000000",
+		"list.focusForeground": "#000000",
+		"list.focusHighlightForeground": "#000000",
+		"list.focusAndSelectionOutline": "#8104da8f",
+		"list.highlightForeground": "#000000",
+		"list.focusOutline": "#8104da8f",
+		"sideBarSectionHeader.background":"#f3f3f3",
+		"badge.background": "#8104da8f",
+		"badge.foreground": "#000000",
+		"activityBarBadge.background":"#8204da",
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
@@ -16,7 +27,7 @@
 			"fontStyle": "underline",
 		},
 		"lifetime": {
-			"foreground": "#FF7b00",
+			"foreground": "#cf0000",
 			"fontStyle": "bold",
 		},
 		"selfKeyword": {
@@ -40,6 +51,15 @@
 	},
 	"tokenColors": [
 		// 
+		{
+			"name": "Punctuation brackets",
+			"scope": [
+				"punctuation.brackets",
+			],
+			"settings": {
+				"foreground": "#8204da",
+			}
+		},
 		{
 			"name": "String",
 			"scope": [
@@ -85,7 +105,7 @@
 				"constant.language.bool",
 			],
 			"settings": {
-				"foreground": "#920000",
+				"foreground": "#cf0000",
 				"fontStyle": ""
 			}
 		},
@@ -106,8 +126,8 @@
 				"source.rust punctuation.brackets.attribute",
 			],
 			"settings": {
-				"foreground": "#920000",
-				"fontStyle": "bold"
+				"foreground": "#ff7b00",
+				// "fontStyle": "bold"
 			}
 		},
 		{
@@ -178,7 +198,7 @@
 			],
 			"settings": {
 				"foreground": "#FF7b00",
-				"fontStyle": "bold"
+				// "fontStyle": "bold"
 			}
 		},
 		// HTML
