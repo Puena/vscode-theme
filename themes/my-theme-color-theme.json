@@ -30,12 +30,12 @@
 			"foreground": "#cf0000",
 			"fontStyle": "bold",
 		},
-		"selfKeyword": {
-			"fontStyle": "bold"
-		},
-		"selfTypeKeyword": {
-			"fontStyle": "bold"
-		},
+		// "selfKeyword": {
+		// 	"fontStyle": "bold"
+		// },
+		// "selfTypeKeyword": {
+		// 	"fontStyle": "bold"
+		// },
 		"keyword": {
 			"foreground": "#8204da"
 		},
@@ -150,7 +150,7 @@
 				"source.ts variable.language.super",
 			],
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#8204da",
 			}
 		},
 		{
@@ -274,7 +274,7 @@
 				"source.ts variable.language.this",
 			],
 			"settings": {
-				"fontStyle": "bold"
+				"foreground": "#8204da",
 			}
 		}
 	],
