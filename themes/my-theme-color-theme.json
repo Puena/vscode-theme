@@ -145,6 +145,15 @@
 			}
 		},
 		{
+			"name": "Super",
+			"scope": [
+				"source.ts variable.language.super",
+			],
+			"settings": {
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Fucntion definition",
 			"scope": [
 				"meta.function.definition entity.name.function",
