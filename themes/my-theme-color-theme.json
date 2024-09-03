@@ -36,6 +36,9 @@
 		"selfTypeKeyword": {
 			"fontStyle": "bold"
 		},
+		"keyword": {
+			"foreground": "#8204da"
+		},
 		// "function.static": {
 		// 	"foreground": "#920000",
 		// 	"fontStyle": "",
