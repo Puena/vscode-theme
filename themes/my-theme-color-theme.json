@@ -5,7 +5,7 @@
 		"editor.foreground": "#000000",
 		"editorLineNumber.foreground": "#000000",
 		"editorLineNumber.activeForeground": "#8204da",
-        "list.activeSelectionIconForeground": "#f3f3f3",
+		"list.activeSelectionIconForeground": "#f3f3f3",
 		"statusBar.background": "#8204da",
 		"statusBarItem.remoteBackground": "#8204da",
 		"activityBar.background": "#f3f3f3",
@@ -18,10 +18,10 @@
 		"list.focusAndSelectionOutline": "#8104da8f",
 		"list.highlightForeground": "#000000",
 		"list.focusOutline": "#8104da8f",
-		"sideBarSectionHeader.background":"#f3f3f3",
+		"sideBarSectionHeader.background": "#f3f3f3",
 		"badge.background": "#8104da8f",
 		"badge.foreground": "#000000",
-		"activityBarBadge.background":"#8204da",
+		"activityBarBadge.background": "#8204da",
 	},
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
@@ -41,6 +41,12 @@
 		"keyword": {
 			"foreground": "#8204da"
 		},
+		"method.declaration": {
+			"fontStyle": "bold",
+		},
+		"function.declaration": {
+			"fontStyle": "bold",
+		}
 		// "function.static": {
 		// 	"foreground": "#920000",
 		// 	"fontStyle": "",
@@ -68,7 +74,8 @@
 		{
 			"name": "String",
 			"scope": [
-				"string.quoted"
+				"string.quoted",
+				"source.dart string.interpolated"
 			],
 			"settings": {
 				"foreground": "#157e00",
@@ -129,10 +136,21 @@
 			"scope": [
 				"source.rust meta.attribute",
 				"source.rust punctuation.brackets.attribute",
+				"source.dart storage.type.annotation",
+				"source.dart meta.embedded.expression"
 			],
 			"settings": {
 				"foreground": "#ff7b00",
 				// "fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Attribute Variable",
+			"scope": [
+				"source.dart meta.embedded.expression variable.parameter"
+			],
+			"settings": {
+				"foreground": "#000000",
 			}
 		},
 		{
@@ -247,7 +265,7 @@
 				"fontStyle": "",
 			}
 		},
-		// TOML
+		// Only for TOML
 		{
 			"name": "TOML group",
 			"scope": [
@@ -258,7 +276,7 @@
 				"fontStyle": "bold"
 			}
 		},
-		// Typescript
+		// Only for Typescript
 		{
 			"name": "Typescript type, modifiers",
 			"scope": [
@@ -290,7 +308,6 @@
 	// 		"settings": {
 	// 			"fontStyle": "italic",
 	// 			"foreground": "#AAAAAA"
-
 	// 		}
 	// 	},
 	// 	{
